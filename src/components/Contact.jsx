@@ -28,9 +28,9 @@ export default function Contact() {
       <div className="mt-12 grid lg:grid-cols-5 gap-8">
         {/* Info */}
         <div className="lg:col-span-2 space-y-5">
-          <InfoCard icon={Phone} title="Call Us" lines={['+91 98765 43210', 'Mon–Sat, 9am – 8pm']} />
-          <InfoCard icon={MapPin} title="Visit Our Store" lines={['HR Enterprises, Ring Road', 'Ahmedabad, Gujarat 380001']} />
-          <InfoCard icon={Mail} title="Email" lines={['hello@hrenterprises.in']} />
+          <InfoCard icon={Phone} title="Call Us" lines={['+91 788 954 6427', 'Mon–Sat, 9am – 8pm']} />
+          <InfoCard icon={MapPin} title="Visit Our Store" lines={['HR Enterprises, Udhampur', 'birmapul near toyota showroom, 182101']} />
+          <InfoCard icon={Mail} title="Email" lines={['HRenterprises@gmail.com']} />
         </div>
 
         {/* Form */}
@@ -48,7 +48,7 @@ export default function Contact() {
                 required
                 value={form.name}
                 onChange={update('name')}
-                placeholder="Rohan Mehta"
+                placeholder="enter your name"
                 className="w-full bg-charcoal-lighter border border-white/10 rounded-lg px-3.5 py-2.5 text-sm text-cream focus:outline-none focus:border-opus-orange"
               />
             </label>
@@ -58,7 +58,7 @@ export default function Contact() {
                 required
                 value={form.phone}
                 onChange={update('phone')}
-                placeholder="98765 43210"
+                placeholder="enter your phone number"
                 className="w-full bg-charcoal-lighter border border-white/10 rounded-lg px-3.5 py-2.5 text-sm text-cream focus:outline-none focus:border-opus-orange"
               />
             </label>

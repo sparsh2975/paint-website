@@ -48,8 +48,8 @@ export default function Footer() {
           <p className="font-display font-semibold text-sm mb-4">Contact</p>
           <ul className="space-y-2.5 text-sm text-muted">
             <li>+91 788 954 6427</li> 
-            <li>Hrenterprises@gmail.com</li>
-            <li>Hrenterprises birmapul near toyota showroom,182101</li>
+            <li>HRenterprises@gmail.com</li>
+            <li>HRenterprises birmapul near toyota showroom,182101</li>
           </ul>
         </div>
 
