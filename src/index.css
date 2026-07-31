@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-charcoal text-cream font-body antialiased;
+  }
+  ::selection {
+    @apply bg-opus-orange/40 text-cream;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #14110F;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3a322b;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF5A1F;
+  }
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+  .section-pad {
+    @apply px-6 md:px-10 lg:px-16 py-24 md:py-32;
+  }
+  .eyebrow {
+    @apply text-xs tracking-[0.25em] uppercase text-opus-amber font-semibold;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-opus-gradient text-charcoal font-display font-bold px-8 py-4 shadow-glow transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-opus-amber;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full glass text-cream font-medium px-6 py-3 transition-colors duration-300 hover:bg-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-opus-amber;
+  }
+}
