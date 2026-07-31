@@ -26,8 +26,8 @@ export default function Footer() {
             HR Enterprises
           </a>
           <p className="text-sm text-muted mt-4 leading-relaxed max-w-xs">
-            Authorized Birla Opus Paint Dealer, serving Ahmedabad with premium
-            interior and exterior finishes since 2013.
+            Authorized Birla Opus Paint Dealer, serving udhampur with premium
+            interior and exterior finishes since 2025.
           </p>
         </div>
 
@@ -47,9 +47,9 @@ export default function Footer() {
         <div>
           <p className="font-display font-semibold text-sm mb-4">Contact</p>
           <ul className="space-y-2.5 text-sm text-muted">
-            <li>+91 98765 43210</li>
-            <li>hello@hrenterprises.in</li>
-            <li>Ring Road, Ahmedabad, GJ 380001</li>
+            <li>+91 788 954 6427</li> 
+            <li>Hrenterprises@gmail.com</li>
+            <li>Hrenterprises birmapul near toyota showroom,182101</li>
           </ul>
         </div>
 
