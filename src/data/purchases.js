@@ -42,4 +42,19 @@ export const initialPurchases = [
   { id: 'pu27', materialCode: '9610019920210', description: 'SGE Brown Calista Sparkle Gloss', size: '1L', qty: 6, rate: 250.00, disc: 60.00, taxableAmount: 1389.60, invoiceNo: 'JK2635254658', invoiceDate: '2026-06-10' },
   { id: 'pu28', materialCode: '9610019921050', description: 'SGE Black Calista Sparkle Gloss', size: '50ml', qty: 40, rate: 24.00, disc: 38.40, taxableAmount: 889.34, invoiceNo: 'JK2635254658', invoiceDate: '2026-06-10' },
   { id: 'pu29', materialCode: '9610019921150', description: 'SGE Black Calista Sparkle Gloss', size: '500ml', qty: 8, rate: 130.00, disc: 41.60, taxableAmount: 963.46, invoiceNo: 'JK2635254658', invoiceDate: '2026-06-10' },
+
+
+  // ---- Invoice JK2635258317 · Order 10370276 · 03.08.2026 ----
+  { id: 'pu30', materialCode: '9320299972', description: 'NS 97 Calista Neo Star', size: '1L', qty: 6, rate: 306.00, disc: 146.88, taxableAmount: 1630.00, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu31', materialCode: '9360039900320', description: 'WF10 White AllDry WallnRoof', size: '20L', qty: 2, rate: 5167.00, disc: 723.38, taxableAmount: 9274.26, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu32', materialCode: '9360039900999', description: 'XWF10 White AllDry WallnRoof', size: '1L', qty: 4, rate: 0, disc: 0, taxableAmount: 0, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03', note: 'Free / promo stock — ₹0 on invoice' },
+  { id: 'pu33', materialCode: '9620019920210', description: 'CME Brown Style Cover Max Gloss', size: '1L', qty: 6, rate: 197.00, disc: 70.92, taxableAmount: 1072.19, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu34', materialCode: '9620019921150', description: 'CME Black Style Cover Max Gloss', size: '500ml', qty: 8, rate: 99.00, disc: 47.52, taxableAmount: 718.42, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu35', materialCode: '9620019923150', description: 'CME SM Grey Style Cover Max Gloss', size: '500ml', qty: 8, rate: 99.00, disc: 47.52, taxableAmount: 718.48, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu36', materialCode: '9620019967150', description: 'CME Phirozi Style Cover Max Gloss', size: '500ml', qty: 6, rate: 102.00, disc: 36.72, taxableAmount: 555.18, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu37', materialCode: '9620019967210', description: 'CME Phirozi Style Cover Max Gloss', size: '1L', qty: 6, rate: 197.00, disc: 70.92, taxableAmount: 1072.19, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu38', materialCode: '9620019967240', description: 'CME Phirozi Style Cover Max Gloss', size: '4L', qty: 4, rate: 766.00, disc: 183.84, taxableAmount: 2779.35, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu39', materialCode: '9620019969210', description: 'CME White C Style Cover Max Gloss', size: '1L', qty: 6, rate: 194.00, disc: 69.84, taxableAmount: 1055.85, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu40', materialCode: '9620019969240', description: 'CME White C Style Cover Max Gloss', size: '4L', qty: 4, rate: 754.00, disc: 180.96, taxableAmount: 2735.85, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
+  { id: 'pu41', materialCode: '9721230911001', description: 'BO Artist Waterproof Sandpaper (150 Pack)', size: '1 pack', qty: 1, rate: 1480.00, disc: 29.60, taxableAmount: 1399.64, invoiceNo: 'JK2635258317', invoiceDate: '2026-08-03' },
 ]
